@@ -139,6 +139,7 @@ namespace Storm
         /// <returns></returns>
         public DbDataReader ExecuteQuery(string commandText)
         {
+
             com.CommandText = commandText;
             Open();
 
